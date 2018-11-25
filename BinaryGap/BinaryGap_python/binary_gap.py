@@ -6,11 +6,10 @@ Edited on Sun Nov 25 16:42 2018
 """
 
 def solution(N):
-    # write your code in Python 3.6
-    binary = bin(N)[2:].split('1')
+    binaryN = bin(N)[2:].split('1')
     
-    if (binary[-1] != ''):
-        binary.remove(binary[-1])
+    if (binaryN[-1] != ''):
+        binaryN.remove(binaryN[-1])
     
-    return len(max(binary))
+    return len(max(binaryN))
 
