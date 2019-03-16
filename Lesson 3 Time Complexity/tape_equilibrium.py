@@ -16,3 +16,5 @@ def solution(A):
         return abs(best)
     else:
         return -1
+
+    
