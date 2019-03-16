@@ -4,8 +4,6 @@ Created on Sat Jan 26 23:01:01 2019
 
 @author: Mateusz
 """
-
-
 def solution(A):
     # write your code in Python 3.6
     if A:
@@ -18,7 +16,3 @@ def solution(A):
         return abs(best)
     else:
         return -1
-
-
-A = [3, 1, 2, 4, 3]
-print(solution(A))
