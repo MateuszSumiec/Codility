@@ -1,6 +1,6 @@
-# Cpp-and-Python
-An exercise repo in which I compare codes in these two langauages. 
-Some of the exercises are from Codility website for programmers:
+# Codility-Lessons-Solutions
+An exercise repo in which I put only 100% solutions (all test cases for small, large, random, random small, random large, boundaries data are completed) of Codility lessons of proggraming. Most of them are written in Python3 but sometimes i compare Python with C++ language so that the complexity of syntax can be easily shown.
+
+Look up the site:
 https://app.codility.com/programmers/
-Some are from HackerRank:
-https://www.hackerrank.com/dashboard
+I found it enjoyable to discover these exercises.
