@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1542454151 source:c:\users\mateusz\desktop\c++\binarygap\main.cpp
+	<iostream>
+	<vector>
+
