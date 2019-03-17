@@ -8,7 +8,7 @@ Created on Sun Mar 17 16:03:24 2019
 
 def solution(A):
     """
-    Returns distinct values of array A.
+    Returns number of distinct values of array A.
 
     A[k] in [−1 000 000, ..., 1 000 000] for k in [0, ..., 100 000].
     """
