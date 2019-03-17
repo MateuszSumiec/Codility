@@ -4,6 +4,8 @@ Created on Sun Mar 17 16:03:24 2019
 
 @author: Mateusz
 """
+
+
 def solution(A):
     """
     Returns item that doesn't occurs in an array A.

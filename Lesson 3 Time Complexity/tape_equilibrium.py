@@ -4,10 +4,13 @@ Created on Sat Jul 17 23:01:01 2019
 
 @author: Mateusz
 """
+
+
 def solution(A):
     """
-    Returns the minimal absolute value of difference between splitted parts of array.
-    
+    Returns the minimal absolute value of difference between
+    splitted parts of an array.
+
     len(A) is  within the range [2, ..., 100 000];
     each element of array A is an integer within the range [−1,000..1,000].
     """

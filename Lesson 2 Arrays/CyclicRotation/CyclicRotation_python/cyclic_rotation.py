@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Mateusz
+"""
+
+
 def solution(A, K):
     """
     Rotate an array A to the right by given number of steps K.

@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 21 15:57:46 2019
-
 @author: Mateusz
 """
 
