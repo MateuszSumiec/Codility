@@ -10,10 +10,6 @@ def solution(A):
     """
     Returns distinct values of array A.
 
-    A[k] in [−1 000 000, ..., 1 000 000] for k in [0..100,000].
+    A[k] in [−1 000 000, ..., 1 000 000] for k in [0, ..., 100 000].
     """
-    return sorted(A)
-
-
-A = [2, 1, 1, 2, 3, 1]
-print(solution(A))
+    return len(set(A))
