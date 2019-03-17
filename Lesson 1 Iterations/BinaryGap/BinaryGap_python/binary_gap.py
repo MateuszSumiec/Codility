@@ -8,8 +8,7 @@ Edited on Sun Nov 25 16:42 2018
 def solution(N):
     binaryN = bin(N)[2:].split('1')
     
-    if (binaryN[-1] != ''):
-        binaryN.remove(binaryN[-1])
+    binaryN.remove(binaryN[-1])
     
-    return len(max(binaryN))
+    return len(max(binaryN, default=0))
 
