@@ -13,4 +13,7 @@ def solution(A):
     A[k] is an integer within the range [−1 000, ..., 1 000]
     for k in in [3..100,000].
     """
-    pass
+    if len(A) > 2:
+        sorted_A = sorted(A)
+        return max(sorted_A[0] * sorted_A[1] * sorted_A[-1],
+                   sorted_A[-1] * sorted_A[-2] * sorted_A[-3])
