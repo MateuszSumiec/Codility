@@ -7,6 +7,13 @@ Created on Sat Jan 26 01:10:54 2019
 
 
 def solution(X, A):
+    """
+    Decides the first possible time when "frog" can jump
+    to other bank of the river.
+
+    len(A) and X are integers within the range [1,..., 100 000];
+    Each element of array A is an integer within the range [1, ..., X].
+    """
     count = [0] * X
     leaf = 0
     for index, element in enumerate(A):
@@ -18,6 +25,3 @@ def solution(X, A):
             return index
     else:
         return -1
-
-
-print(solution(5, [1, 3, 1, 4, 2, 3, 5, 4]))

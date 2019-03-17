@@ -7,6 +7,13 @@ Created on Sat Jan 26 17:35:43 2019
 
 
 def solution(A):
+    """
+    Returns the smallest positive integer that does not occur in array A.
+
+    N is an integer within the range [1, ..., 100 000];
+    Each element of array A is an integer
+    within the range [−1 000 000, ..., 1 000 000].
+    """
     count_int = [0] * (max(A)+1)
     for index, element in enumerate(A):
         if element > 0:
@@ -22,7 +29,3 @@ def solution(A):
         return len(count_int)
 
     return 1
-
-
-A = [1, 2, 3]
-print(solution(A))

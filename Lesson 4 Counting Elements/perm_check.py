@@ -7,6 +7,13 @@ Created on Sun Jan 27 10:57:07 2019
 
 
 def solution(A):
+    """
+    Return 1 if array A is a permutation and 0 if not.
+
+    len(A) is an integer within the range [1, ..., 100 000];
+    Each element of array A is an integer
+    within the range [1, ..., 1 000 000 000].
+    """
     if A:
         if max(A) > len(A):
             return 0
@@ -24,7 +31,3 @@ def solution(A):
                 return 0
         else:
             return 1
-
-
-A = [1, 1]
-print(solution(A))
