@@ -5,7 +5,12 @@ Created on Sat Jan 26 23:01:01 2019
 @author: Mateusz
 """
 def solution(A):
-    # write your code in Python 3.6
+    """
+    Returns the minimal absolute value of difference between splitted parts of array.
+    
+    len(A) is  within the range [2, ..., 100 000];
+    each element of array A is an integer within the range [−1,000..1,000].
+    """
     if A:
         suma = A[0] - sum(A[1:])
         best = abs(suma)
