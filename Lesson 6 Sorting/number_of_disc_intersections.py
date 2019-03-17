@@ -14,5 +14,5 @@ def solution(A):
     """
     pass
 
-
+print('lalalala')
 assert solution([1, 5, 2, 1, 4, 0]) == 11, "zle liczysz"
