@@ -4,8 +4,6 @@ Created on Sun Mar 17 15:30:09 2019
 # 100%, level: Medium
 @author: Mateusz
 """
-
-
 from math import floor
 
 
